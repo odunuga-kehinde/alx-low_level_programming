@@ -1,0 +1,20 @@
+#include "main.h"
+
+/**
+ * print_most_numbers - Function that prints 01356789 with a new line.
+ *
+ * Return: void
+ */
+
+void print_most_numbers(void)
+{
+	char c;
+
+	for (c = 0; c <= 14; c++)
+
+	if (c != 2 || c != 4)
+	{
+		_putchar(c);
+	}
+	_putchar('\n');
+}
